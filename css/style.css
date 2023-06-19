@@ -1,0 +1,89 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Montserrat';
+ }
+
+.container {
+    max-width: 1330px;
+    margin: 0 auto;
+}
+
+img {
+     width: 100%;
+}
+
+.gallery { 
+    position: relative;
+    padding: 0 10px;
+
+}
+
+h3 { 
+    padding-top: 37px;
+    padding-left: 10px;
+    font-size: 32px;
+}
+
+ 
+.control { 
+    list-style: none;
+}
+
+.control li { 
+    position: absolute;
+    top: 57%;
+    transform: translateY(-50%);
+    z-index: 999; 
+    padding: 13px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    transition: .4s;
+  } 
+
+  .control li:hover { 
+    background-color: #D7D7D7;
+  }
+
+.control img {
+    height: 20px;
+  }
+
+ .control .prev { 
+    left: 1.45%;
+ }
+
+ .control .next { 
+    right: 1%;
+ }
+
+ .card {
+    max-width: 400px;
+    padding: 0 10px;
+ }
+ 
+.card-name { 
+    font-size: .9em;
+    color: #505050;
+    margin-bottom: 12px;
+    height: 30px;
+}
+ 
+.card-price-reduced { 
+    color: red;
+}
+
+.card-price-old, 
+.card-price, 
+.card-price-reduced { 
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card-price-old { 
+    text-decoration: line-through;
+}
